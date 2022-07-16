@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Hero from '../components/Hero'
 // import Footer from './Footer'
 
-const name = 'Barbara'
+const name = 'Barbara Lizama Test'
 export const siteTitle = 'Fiest Nextjs Page'
 
 export default function Layout ({ children, home }) {
