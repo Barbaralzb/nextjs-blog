@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+    body,
+    body > div:first-child,
+    div#__next,
+    div#__next > div {
+    height: 100vh;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width:100%
+}
